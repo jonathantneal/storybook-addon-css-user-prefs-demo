@@ -1,0 +1,16 @@
+{
+  "name": "storybook-demo",
+  "version": "0.0.3",
+  "private": true,
+  "scripts": {
+    "start": "start-storybook -p 6006",
+    "build": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^6",
+    "@storybook/react": "^6",
+    "react": "latest",
+    "react-dom": "latest",
+    "storybook-addon-css-user-preferences": "latest"
+  }
+}
